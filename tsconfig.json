@@ -4,8 +4,10 @@
         "target": "esnext",
         "module": "esnext",
         "types": ["@cloudflare/workers-types"],
-        "moduleResolution": "node10",
-        "baseUrl": "src",
+        "moduleResolution": "node16",
+        "paths": {
+            "@/*": ["src/*"]
+        },
         "strict": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
