@@ -6,7 +6,6 @@
         "types": ["@cloudflare/workers-types"],
         "moduleResolution": "bundler",
         "baseUrl": "src",
-        "ignoreDeprecations": "6.0",
         "strict": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
